@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#EBA63F"> 
+    <h1 align="center">Silahkan Isi Buku Pengunjung</h1>
+    <form>
+        <table bgcolor="white" align="center" border="0" cellpadding="15" cellspacing="0">
+            <thead bgcolor="silver">
+                <tr>
+                    <th colspan="2">Form Pengunjung</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="nama" maxlength="50" size="23"/></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><input type="text" name="alamat" maxlength="100" size="23"/></td>
+                </tr>
+                <tr>
+                    <td>Tanggal lahir</td>
+                    <td><input type="date" name="tgl_lahir" style="width: 192px"/></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" name="jns_kelamin" value="L"/>Laki - laki &nbsp;
+                        <input type="radio" name="jns_kelamin" value="P"/>Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Komentar</td>
+                    <td>
+                        <textarea name="komentar" cols="24" rows="7"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot bgcolor="silver">
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" name="proses" value="Kirim" /> &nbsp;
+                        <input type="reset" name="unproses" value="Batal"/>
+                    </th> 
+                
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

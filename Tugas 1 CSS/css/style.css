@@ -1,0 +1,54 @@
+p{
+    
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    text-indent: 50px;
+
+}
+body{
+    background-color: #FDD935;
+    background-image: url(../img/background.jpg);
+    background-size: 100% 18%;
+    background-repeat: no-repeat;
+    margin: 0cm 3cm;
+    background-position: top right;
+}
+img{
+   background-position: center;
+    border-radius: 50%;
+    border: 10px solid #FDD935;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h3{
+    text-align: center;
+    color: white;
+}
+hr{
+    border-width: 1px;
+    border-color: #F7F4E9;
+    border-style: dashed;
+}
+
+/*grouping*/
+fieldset, legend{
+    border: #5626C4 inset 5px;
+}
+legend{
+    padding: 10px;
+    background-color: #2CCCC3;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+ol{
+    list-style-image: url(../img/jempol.gif);
+}
+ul{
+    list-style-image: url(../img/nyanyi.gif);
+}
